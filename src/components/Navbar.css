@@ -1,0 +1,47 @@
+
+
+/* Style for the container div */
+.navbar-container {
+  position: fixed; /* Set navbar position to fixed */
+  top: 0; /* Position navbar at the top of the page */
+  left: 0; /* Align navbar to the left */
+  width: 100%; /* Set navbar width to full */
+  padding: 10px 23px;
+  background-color: #33333300; /* Add background color to navbar */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000; 
+  backdrop-filter: blur(20px);
+}
+
+/* Style for the buttons */
+.navbar-button {
+  padding: 10px 20px;
+  background-color: #0C7075; /* Green background */
+  border: none;
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px 0px 15px 0px;
+}
+
+/* Hover effect */
+.navbar-button:hover,
+.navbar-button:focus,
+.navbar-button:active {
+  background-color: #ffff; 
+  color: #0C7075; 
+  animation-name: pulse-active;
+  animation-duration:1s;
+}
+
+/* Style for the links */
+.navbar-button a {
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set link text color to white */
+}

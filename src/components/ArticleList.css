@@ -1,0 +1,185 @@
+/* ArticleList.css */
+.ArticleList {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .ArticleTitle {
+    cursor: pointer;
+  }
+  
+  .EditTextarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .EditButton {
+    padding: 5px 10px;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .DeleteButton {
+    padding: 5px 10px;
+    background-color: #f44336; /* Red background */
+    border: none;
+    color: white; /* White text */
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .CommentInput {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .RateSection {
+    margin-bottom: 10px;
+  }
+  
+  .Star {
+    color: grey;
+    cursor: pointer;
+  }
+  
+  .Star.active {
+    color: gold;
+  }
+  
+  .PDFDownloadLink {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .PDFDownloadLink:hover {
+    background-color: #005F6B; /* Darker blue */
+  }
+  
+
+
+  h2 {
+    font-size: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    margin: 2%;
+  }
+  
+
+  .ar-list li {
+    width: 25%; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    height: 50vh;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth hover effect */
+    animation: bounce 1s ; /* Apply animation */
+  }
+  
+  .ar-list li:hover {
+    transform: translateY(-5px); /* Move the element up slightly on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a stronger box shadow on hover */
+  }
+  
+  /* Style for list item title */
+  .ar-list li h2 {
+    margin: 3% 0 14% 9%; /* Remove top margin for better alignment */
+    font-size: 20px; /* Adjust font size */
+    color: #333; 
+  }
+  
+  /* Style for list item description */
+  .ar-list li p {
+    margin-bottom: 0; /* Remove bottom margin for better alignment */
+    font-size: 16px; /* Adjust font size */
+    color: #666; /* Text color */
+  }
+  
+  /* Keyframes for animation */
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Media Query for smaller screens */
+  @media (max-width: 900px) {
+    .ar-list li {
+      width: 100%; /* Adjust width to fit smaller screens */
+      margin-bottom: 20px; /* Add some space between list items */
+    }
+  }
+  
+
+/* Style for expanded content */
+.ar-list li div {
+  margin-top: 10px; /* Add space between expanded content and other elements */
+}
+#Search-inp{
+  width: 50%; /* Set the width to 50% of its container */
+  padding: 10px; /* Add padding for better appearance */
+  font-size: 16px; /* Adjust font size */
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 5px; 
+}
+.ar-list .ar-search{
+  background-color: #0b4346;
+  margin-top: 65px;
+  width: 100%;
+  height: 20vw;
+  min-height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+hr{
+  margin: 20px;
+}
+
+.title-sea {
+  position: relative;
+  font-size: 299%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.5pc;
+  color: #0b4346;
+  text-transform: uppercase;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, #0008);
+  line-height: 0.70em;
+  outline: none;
+  color: #fff;
+    text-shadow: 0 0 10px #00EDC7, 0 0 20px #00EDC7, 0 0 40px #00EDC7, 0 0 80px #00EDC7, 0 0 160px #00EDC7;
+  
+}
+

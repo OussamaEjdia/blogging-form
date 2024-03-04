@@ -1,0 +1,272 @@
+/* Art.css */
+
+.ArtContainer h1{
+    color: #fff;
+    margin: 5%;
+    font-size: 230%;
+    text-align: center;
+}
+.text-article{
+    height: auto;
+     background-color: white ; 
+     padding: 3% ;
+     text-align: center;
+      border: 1px solid #ccc ;
+      border-radius: 15px;
+}
+
+
+
+/* styles.css */
+
+.btn-E-D {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-E-D button {
+    margin: 1%;
+    height: 4vw;
+    padding: 10px 20px;
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 110%;
+    transition: background-color 0.3s ease;
+    background-color: #005F6B;
+    animation: buttonClickAnimation 1s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .btn-E-D .PDFDownloadLink {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4vw;
+    padding: 10px 20px;
+    width: 20%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 110%;
+    transition: background-color 0.3s ease;
+    background-color: #005F6B;
+    list-style-type: none;
+    animation: buttonClickAnimation 1s;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+/* styles.css */
+.reaction-container .icon{
+    margin-left: 15px;
+    font-size: 150%;
+}
+.reaction-container span{
+    color: #ffff;
+}
+#home1 {
+    margin: 2%;
+    padding: 1%;
+    border: 1.5px solid #fff; /* Adjust the border width as needed */
+    border-radius: 16px;
+}
+#home1:hover{
+    background-color: #eee;
+    color: #005F6B;
+    text-decoration: none;
+}
+
+.reaction-container .icon.A,.B{
+    color:#1074fe;
+    
+}
+.reaction-container .icon.C{
+    color: #fd557c;
+}
+
+
+.reaction-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .reaction-container span {
+    margin-left: 5px; /* Adjust the spacing between the icon and count */
+  }
+  
+
+.PDFDownloadLink:active {
+  transform: translateY(1px); /* Adjust the active effect as needed */
+}
+.btn-E-D button:active {
+  transform: translateY(1px); /* Adjust the active effect as needed */
+}
+
+@keyframes buttonClickAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes linkClickAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .btn-E-D button:hover {
+    background-color: #fff; 
+    color: #005F6B;
+  }
+  .btn-E-D .PDFDownloadLink:hover {
+    background-color: #fff; 
+    color: #005F6B;
+    text-decoration: none;
+  }
+  
+  .btn-E-D button .btn {
+    margin-right: 5px; 
+  }
+  
+
+.textarea-container {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 50vw; /* Adjust the height as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue color, you can change it as needed */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  /* App.css */
+
+@keyframes buttonClickAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .button-animation {
+    animation: buttonClickAnimation 0.3s ease-in-out;
+  }
+  
+
+.ArtContainer {
+    width: 90%;
+    margin: 75px 59px 4px 67px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .ArticleTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .ArticleContent {
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .EditButton,
+  .DeleteButton,
+  .DownloadButton,
+  .ReactionButton,
+  .CommentButton {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .CommentInput {
+    margin-top: 10px;
+  }
+  
+  .CommentsSection {
+    margin-top: 20px;
+  }
+  
+  .Comment {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #eee;
+  }
+  
+  .CommentContent {
+    margin-left: 10px;
+  }
+  .div-comments .comments{
+    width: 50%;
+    margin : 15px;
+  }
+  /* styles.css */
+
+.comments-container {
+    margin-top: 20px; /* Adjust margin top as needed */
+  }
+  
+  .comments-container h3 {
+    font-size: 200%; 
+    margin-bottom: 10px; 
+    color: #005F6B;
+  }
+  
+  .comments-container .p-comments {
+    margin-bottom: 10px; 
+    background-color: #ddd;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 40px 7px 40px 7px;
+
+  }
+  
+  .comments-container p {
+    padding: 10px;
+    font-size: 120%; 
+
+  }
+  
+  
